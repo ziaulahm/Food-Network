@@ -1,0 +1,150 @@
+body{
+    font-family: 'Roboto', sans-serif;  
+}
+.flexible-container{
+  display: flex;
+  padding-top: 20px ;    
+}
+.half-width{
+   width: 50%;
+   padding-left: 265px;
+   padding-top: 30px;
+}
+.half-width img{
+    width: 70%;
+    height: 100%;
+    padding-right: 10px;
+} 
+.orange-color{
+    color: orange;
+}
+h1{
+    font-size: 50px; 
+    line-height: 1.2;
+    color: #575757;
+    padding: 71px 0px 0px 0px;
+}
+h2{
+    font-size: 30px; 
+    line-height: 1.2;
+    color: #575757;
+}
+p{
+    font-size: 18px;
+    color: #9a9a9a;
+    padding-bottom: 27px;
+    padding-right: 243px;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(#fb9049,orange ,tomato);
+    color: white;
+    font-weight: 400;
+    padding: 20px 40px;
+    border-radius: 50px;
+}
+
+#female-nutritionist{
+    width: 23%;
+    height: 22%;
+}
+#about-nutritionist{
+    padding: 0px 190px;
+}
+.About-me{
+    margin-top: 25px;
+    margin-left: 250px;
+    padding-right: 5px;
+    padding-bottom: 20px;
+    background-image: url(images/shapes/7.png);
+    background-repeat: no-repeat;
+}
+.recipe-area{
+    margin-top: 18px;
+    
+    
+}
+.recipe-area h2{
+    text-align: center;
+
+}
+.recipe-area p{
+    text-align: center;
+    padding: 0px 662px; 
+}
+
+
+.recipe-box{
+    width: 300px;
+    height: 400px;
+    margin: 10px 10px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: 10px solid white;
+    box-shadow: 10px 10px 22px grey;  
+}
+.recipe-box img{
+    width: 283px;
+}
+.recipe-box h3{
+    text-align: left;
+}
+.recipe-box p{
+    padding: 0 0px 10px;
+    text-align: left;
+}
+
+.recipe-container{
+    display: flex;
+    justify-content: space-evenly; 
+    padding: 0 268px; 
+}
+.followers{
+    margin: 10px 0;  
+}
+
+#subscriber-number{
+    width: 60%;
+    height: 20%;
+    display:flex;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: 10px solid white;
+    box-shadow: 10px 10px 31px grey;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    margin-left: 368px;
+    padding: 0px 0px 0px 200px;    
+}
+#subscriber-number h3{
+    font-size: 30px;
+    color: black;
+    padding-left: 88px;
+}
+#subscriber-number p{
+    font-size: 12px;
+    color: black;
+    padding: 0px 0px 0px 89px;   
+}
+.live-healthy{
+    width:60% ;
+    height: 40%;
+    background-color: black;
+    margin-left: 365px;
+    padding: 5px 10px;
+}
+.live-healthy h3{
+    font-size: 25px;
+    color: white;
+    text-align: center;
+}
+.live-healthy p{
+    font-size: 12px;
+    color: white;
+    margin-left: 415px;
+    letter-spacing: 1px;
+}
+.live-healthy span{
+    padding-right: 15px !important;
+}
+
